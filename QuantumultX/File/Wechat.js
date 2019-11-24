@@ -1,8 +1,4 @@
-
-/**
- * @supported C03423BE3DBC
- */
-
+// @supported C03423BE3DBC
 
 /*
 Remove the WeChat public account bottom ad
@@ -15,7 +11,6 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,m
 
 Surge & QX MITM = mp.weixin.qq.com,
 */
-
 
 var obj = JSON.parse($response.body);
 obj.advertisement_num = 0;
