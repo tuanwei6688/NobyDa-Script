@@ -1,4 +1,6 @@
-// @supported C03423BE3DBC
+/**
+* @supported C03423BE3DBC
+*/
 
 /*
 Remove the WeChat public account bottom ad
